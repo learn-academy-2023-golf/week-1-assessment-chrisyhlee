@@ -10,16 +10,31 @@
 // --------------------INSTRUCTOR EXAMPLE: Create a conditional statement that evaluates two strings and determines which of the strings has more characters. Use the two sets of test variables provided.
 
 // Set one:
-const fruit1 = "apple"
-const fruit2 = "banana"
+// const fruit1 = "apple"
+// const fruit2 = "banana"
 // Expected outcome: "banana"
 
 // Set two:
-// const fruit1 = "cherry"
-// const fruit2 = "kiwi"
+const fruit1 = "cherry"
+const fruit2 = "kiwi"
 // Expected outcome: "cherry"
 
 // Pseudo code:
+// input: 2 strings
+// output: the string that has more characters
+// use conditional statement to compare 2 strings
+// .length to get the length of both strings
+// whichever length is greater, return that string
+
+// conditional statement comparing the length of 2 strings
+if(fruit1.length > fruit2.length){
+  // if condition is true, log fruit1
+  console.log(fruit1)
+  // if the first condition was false
+} else {
+  // if condition is true, log fruit2
+  console.log(fruit2)
+}
 
 
 // --------------------1) Create the code that will combine the two arrays and return the length using the test variables provided below.
