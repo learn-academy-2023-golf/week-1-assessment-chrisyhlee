@@ -10,8 +10,8 @@
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
 // console.log(colors.push("indigo"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: ["tangerine", "magenta", "lilac", "daffodil", "indigo"]
+// b) Verify and explain: My answer was wrong, I though it would return the new value pushed into the array, but .push() returns the length of the new array after the element is added.
 
 // --------------------1) What will this log?
 
